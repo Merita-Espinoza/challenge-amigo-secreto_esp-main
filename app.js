@@ -29,7 +29,7 @@
 
     let sortearAmigo = function () {
     if (amigos.length === 0) {
-        alert('La lista se encuenrra vacía. Por favor agrega los amigos a sortear.');
+        alert('La lista se encuentra vacía. Por favor agrega los amigos a sortear.');
         return;
     }
     let indiceAleatorio = Math.floor(Math.random() * amigos.length);
